@@ -15,11 +15,9 @@ Our work focuses on reimplementing this framework using **DistilBERT** and **RoB
 | `analysis_of_results_Roberta.ipynb` | Analysis notebook focused on **RoBERTa-based classifiers** (necessity/sufficiency + SHAP/LIME), authored by the first collaborator. |
 | `Notebook2.ipynb` | Adapted from `Notebook_Base_1.ipynb` by the second collaborator. Focuses on **DistilBERT-based analysis** and further extensions. |
 | `perturbation_functions.py` | Contains core functions for generating perturbations, masking tokens, and infilling using the ILM. |
-| `train.py` | Helper script for training classifiers. |
-| `Weights/` | Folder containing pretrained model checkpoints. |
+| `Weights/` | Folder containing trained model weights for both ILM and classifiers. |
 | `ilm/` | Code for In-filling Language Model. |
 | `hatecheck-data/` | Contains the HateCheck test suite used to evaluate model fairness and consistency. |
-| `Data/`, `test_trainer/logs/`, `__pycache__/` | Supporting assets, logs, and runtime files. |
 
 ---
 
